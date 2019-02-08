@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forwater</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-list">
+            <a href="index.html">1</a>
+            <a href="sections.html">2</a>
+            <a href="catalog(slab).html">3</a>
+            <a href="catalog(list).html">4</a>
+            <a href="item_card.html">5</a>
+            <a href="basket.html">6</a>
+            <a href="step-one.html">7</a>
+            <a href="step-two.html">8</a>
+            <a href="step-three.html">9</a>
+            <a href="login.html">10</a>
+            <a href="registration.html">11</a>
+            <a href="password_recovery.html">12</a>
+            <a href="lk_personal_data.html">13</a>
+            <a href="lk_my_orders.html">14</a>
+            <a href="order.html">15</a>
+            <a href="news.html">16</a>
+            <a href="one_news.html">17</a>
+            <a href="about.html">18</a>
+            <a href="contacts.html">19</a>
+        </div>
+        <div class="mobile_version_menu"> 
+            <div class="container">
+                <div class="row" id="white">
+                    <div class="gamburger_box col-2 col-sm-1">
+                        <a href="#" class="nav-trigger" id="open_menu_btn">
+                            <span></span>
+                        </a>
+                    </div>
+
+                    <div class="mobile_main_menu" id="mobile_main_menu">   
+
+                        <ul class="mobile_menu_list">
+                            <li class="mobile_menu_list_item first_item_mob_menu">
+                                <a href="#" class="nav-trigger_close" id="close_menu_btn">
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Каталог</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Оплата и доставка</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Монтаж</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Отзывы</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">О компании</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Новости</a>
+                            </li>
+                            <li class="mobile_menu_list_item">
+                                <a href="#" class="mobile_menu_link">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div class="wrap_number_phone_box">
+                            <div class="number_phone_box">
+                                <p class="number_phone_box-img--mob">
+                                    <img src="img/phone-call.png" alt="" width="22" height="22">
+                                </p>
+                                <p>
+                                    <span>Магазин в Москве</span> <br>
+                                    <a class="mgo-number-12695" href="tel:84996536483">8 (499) 653-64-83</a>
+                                </p>
+                            </div>
+                            <div class="number_phone_box">
+                                <p class="number_phone_box-img--mob">
+                                    <img src="img/headset.png" alt="" width="22" height="26">
+                                </p>
+                                <p>
+                                    <span>Для регионов</span> <br>
+                                    <a href="tel:88007756349">8 800 775-63-49</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="wrap_selectpicker col-6 col-sm-5 mob-none">
+                        <img src="img/placeholder-filled-point.png" alt="" width="11" height="15">
+                        <a href="#">г. Москва <i class="fas fa-sort-down"></i></a>
+                    </div>
+                    <div class="basket_mobile_box col-2 col-sm-3 mob-none">
+                        <a href="#">
+                            <img src="img/shopping-cart.png" width="18" height="20" alt="">
+                            <span class="cart-count">2</span>
+                        </a>
+                    </div>
+                    <div class="col-2 col-sm-3 user_icon_mobile mob-none">
+                        <a href="lk">
+                            <img src="img/avatar.png" alt="" width="16" height="18">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mob_logo">
+                        <a href="#">
+                            <img src="img/logo-mob.png" alt="" width="182" height="41">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row head_menu_catalog">
+                    <div class="head_menu_list_item_wrap col-12">
+                        <ul class="head_menu_list">
+                            <li class="head_menu_list_item head_menu_list_item_visible" id="open_list_link">
+                                <a class="open_list_link">Каталог</a>
+                                <ul class="head_menu_sublist" id="head_menu_sublist">
+                                    <li class="head_menu_sublist_item first_head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Насосное оборудование</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Расширительные баки</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">КИП и автоматика</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink activate_link">Предохранителльная арматура</a>
+                                        <div class="wrap_sublists">
+                                            <ul class="sublist">
+                                                <li class="sublist_item">
+                                                    <div class="arrow-top"></div>
+                                                    <a href="#" class="sublist_link">Системы контроля протечки воды</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Клапаны предохранительные</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Редукторы давления воды</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Клапаны перепускные</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Клапаны подпиточные</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Воздухоотводчики</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Клапаны обратные</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Группы безопасности котла</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Виброкомпенсаторы</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Установки вакуумной деаэрации, сепараторы</a>
+                                                </li>
+                                                <li class="sublist_item">
+                                                    <a href="#" class="sublist_link">Аварийные души</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Регулирующая арматура</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Запорная арматура</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Коллекторы и аксессуары</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Трубки и гибкие поводки</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Фитинги для труб</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Котельное оборудование</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Приборы отопительные</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Теплообменники, бойлеры, теплоаккумуляторы</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Фильтры для воды</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Канализационные системы</a>
+                                    </li>
+
+                                    <li class="head_menu_sublist_item">
+                                        <a href="#" class="head_menu_sublistlink">Интсрумент и принадлежности</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row search_line_box_mobile_version_wrap">
+                    <form method="" id="searchform_mob" action="search" class="search_line_box search_line_box_mobile_version">
+                        <input type="text" name="search" id="seach_input_mob">
+                        <label for="seach_input_mob">Введите название товара</label>
+                        <img src="img/search.png" alt="" class="seacrh_icon" width="19" height="19">
+                        <input type="submit" value="Найти" id="search_btn_mob">
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="head_top_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 col-lg-3 selectpicker_box">
+                        <div class="wrap_selectpicker">
+                            <img src="img/placeholder-filled-point.png" alt="" width="11" height="15">
+                            <a href="#">г. Москва <i class="fas fa-sort-down"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-lg-7 wrap_head_main_menu">
+                        <ul class="head_menu_list">
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">Оплата и доставка</a>
+                            </li>        
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">Монтаж</a>
+                            </li>
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">Отзывы</a>
+                            </li>
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">О компании</a>
+                            </li>
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">Новости</a>
+                            </li>
+                            <li class="head_menu_list_item">
+                                <a href="#" class="head_menu_link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2 col-lg-2 login_box">
+                        <a href="lk" class="login_btn">
+                            <img src="img/avatar.png" alt="" width="16" height="18">
+                            <span>Личный кабинет</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="head_bottom_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-4 col-lg-3 wrap_logo">
+                        <a href="#" class="logo">
+                            <img src="img/logo.png" alt="" width="214" height="49">
+                        </a>
+                    </div>
+                    <div class="col-sm-9 col-md-8 col-lg-7 head_contact">
+                        <div class="number_phone_box">
+                            <p class="number_phone_box-img">
+                                <img src="img/phone-call.png" alt="" width="22" height="22">
+                            </p>
+                            <p>
+                                <span>Магазин в Москве</span> <br>
+                                <a class="mgo-number-12695" href="tel:84996536483">8 (499) 653-64-83</a>
+                            </p>
+                        </div>
+                        <div class="number_phone_box">
+                            <p class="number_phone_box-img">
+                                <img src="img/headset.png" alt="" width="22" height="26">
+                            </p>
+                            <p>
+                                <span>Для регионов</span> <br>
+                                <a class="mgo-number-12695" href="tel:88007756349">8 (800) 775-63-49</a>
+                            </p>
+                        </div>
+
+                        <div class="head_basket_box">
+                            <div class="basket_icon">
+                                <a href="#">
+                                    <img src="img/shopping-cart.png" alt="" width="18" height="20">
+                                </a>
+                                <span class="cart-count">
+                                    2
+                                </span>
+                            </div>
+                            <div class="sum">
+                                <p>115 056 руб.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket_btn_box col-lg-2">
+                        <a href="#" class="cart-btn">Оформить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+            <!-- END HEADER -->
+            <!-- Main content -->
+    <div class="main_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 left_nav_column">
+                    <p class="nav_list_title open_list_link">
+                        Каталог товаров
+                    </p>
+                    <ul class="nav_list">
+            
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link ">Насосное оборудование</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link activate_links">Расширительные баки</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link ">КИП и автоматика</a>
+                            
+                        </li>
+        
+                        <li class="nav_list_item activate_item--desc">
+                            <a href="#" class="nav_list_link activate_links">Предохранительная арматура</a>
+                            <div class="wrap_nav_sublists--desc">
+                                <ul class="nav_sublist--desc">
+                                    <li class="arrow-left"></li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Системы контроля протечки воды</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Клапаны предохранительные</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Редукторы давления воды</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Клапаны перепускные</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Клапаны подпиточные</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Воздухоотводчики</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Клапаны обратные</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Группы безопасности котла</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Виброкомпенсаторы</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Установки вакуумной деаэрации, сепараторы</a>
+                                    </li>
+                                    <li class="nav_list_item--desc">
+                                        <a href="#" class="nav_list_link--desc">Аварийные души</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link activate_links">Регулирующая арматура</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link ">Запорная арматура</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Коллекторы и аксессуары</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Трубки и гибкие поводки</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Фитинги для труб</a>
+                        </li>
+        
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Котельное оборудование</a>
+                        </li>
+
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Приборы отопительные</a>
+                        </li>
+
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Теплообменники, бойлеры теплоаккумуляторы</a>
+                        </li>
+
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Фильтры для воды</a>
+                        </li>
+
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Канализационные системы</a>
+                        </li>
+
+                        <li class="nav_list_item ">
+                            <a href="#" class="nav_list_link">Инструмент и принадлежности</a>
+                        </li>
+    
+                    </ul> 
+                </div>
+
+                <div class="col-sm-12 col-md-8 col-lg-9 main_content_container">
+                    <form method="" id="searchform_desc" action="search" class="search_line_box">
+                        <input type="text" name="search" id="seach_input_desc" placeholder="Введите название товара">
+                        <img src="img/search.png" alt="" class="seacrh_icon" width="19" height="19">
+                        <input type="submit" value="Найти" id="search_btn_desc">
+                    </form>
+
+                    <div class="wrap_bread_crambs">
+                        <a href="#">Главная</a>
+                        <span class="delimiter"> / </span>
+                        <span class="this_page">О компании</span>
+                    </div>
+
+                    <h1>О компании</h1>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Цели и задачи
+                        </p>
+                        <p class="info_box_text">
+                            Компания ФОРВАТЕР &mdash;осуществляет розничную и оптовую торговлю насосным оборудованием и инженерной
+                            сантехникой. Основная задача компании &mdash; обеспечить нашим клиентам полную комплектацию систем
+                            водоснабжения, отопления и канализации.
+                        </p>
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Ассортимент
+                        </p>
+                        <p class="info_box_text">
+                            Более 40000 наименований продукции сос клада в Москве и на заказ. Около 100 известных брендов из 14 стран
+                            мира. В нашем ассортименте представлены товары из таких стран как Германия, Дания, Австрия, Италия, США,
+                            Швеция, Испания, Франция, Бельгия, Финляндия, Чехия, Турция, Польша, Россия.
+                        </p>
+                    </div>
+
+                    <div class="inform_box_img">
+                       <img src="img/about.png" alt="">
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Гарантия качества 
+                        </p>
+                        <p class="info_box_text">
+                            Наша компания сотрудничает только с теми производителями, которые гарантируют качество своей продукции и
+                            обеспечивают полное техническое сопровождение и обслуживание наших клиентов в фирменных сервисных 
+                            центрах. 
+                        </p>
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Особые условия для постоянных клиентов
+                        </p>
+                        <p class="info_box_text">
+                            Мы всегда готовы предложить индивидуальные условия и персональную скидку для постоянных клиентов,
+                            монтажных и торгующих организация.
+                        </p>
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Техническая поддержка
+                        </p>
+                        <p class="info_box_text">
+                            Мы обеспечиваем полную техническую поддержку и сопровождение наших клиентов по телефону при
+                            возникновении сложностей во время монтажа и эксплуатации оборудования.
+                        </p>
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Монтажный отдел
+                        </p>
+                        <p class="info_box_text">
+                            Квалифицированные сотрудники монтажного отдела рады предложить Вам помощь в подборе оборудования,
+                            услуги по монтажу инженерных систем &laquo;под ключ&raquo;, а также услугу &laquo;шеф-монтаж&raquo;.
+                        </p>
+                    </div>
+
+                    <div class="info_box">
+                        <p class="info_box_title">
+                            Работа 24 часа в сутки / 7 дней в неделю
+                        </p>
+                        <p class="info_box_text">
+                            Обработка заказов из интернет-магазина и бронирование товара осуществляется круглосуточно.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Main content -->
+    <!-- FOOTER -->
+    <footer>
+        <div class="top_footer_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 footer_logo">
+                        <a href="#">
+                            <img src="img/logo-mob.png" alt="" width="214" height="49">
+                        </a>
+                    </div>
+                        
+                    <div class="col-12 col-md-8 col-lg-9 wrap_footer_menu_list">
+                        <ul class="footer_menu_list">
+                            <li class="footer_menu_list_item footer_menu_list_item_active">
+                                <a href="#" class="footer_menu_link active">Каталог</a>
+                            </li>
+                
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">Оплата и доставка</a>
+                            </li>
+        
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">Монтаж</a>
+                            </li>
+        
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">Отзывы</a>
+                            </li>
+                            
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">О компании</a>
+                            </li>
+                            
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">Новости</a>
+                            </li>
+                            
+                            <li class="footer_menu_list_item">
+                                <a href="#" class="footer_menu_link">Контакты</a>
+                            </li>
+        
+                        </ul>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        <div class="bottom_footer_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 footer_social_links">
+                        <p>Следите за нами в соцсетях</p>
+                        <a href="#" class="soc_link">
+                            <img src="img/vk.png" alt="">
+                        </a>
+                        <a href="#" class="soc_link">
+                            <img src="img/insta.png" alt="">
+                        </a>
+                        <p class="footer_copyright_mobile_version">© Forwater.ru 2018 г</p>
+                    </div>
+                    <div class="col-sm-7 col-md-12 col-lg-9 footer_contacts">
+                        <div class="number_phone_box">
+                            <p class="number_phone_box-img--mob">
+                                <img src="img/phone-call.png" alt="" width="22" height="22">
+                            </p>
+                            <p>
+                                <span>Магазин в Москве</span> <br>
+                                <a class="mgo-number-12695" href="tel:84996536483">8 (499) 653-64-83</a>
+                            </p>
+                        </div>
+                        <div class="number_phone_box">
+                            <p class="number_phone_box-img--mob">
+                                <img src="img/headset.png" alt="" width="22" height="26">
+                            </p>
+                            <p>
+                                <span>Для регионов</span> <br>
+                                <a class="mgo-number-12695" href="tel:88007756349">8 (800) 775-63-49</a>
+                            </p>
+                        </div>
+                        <div class="number_phone_box">
+                            <p class="number_phone_box-img--mob">
+                                <img src="img/placeholder.png" alt="" width="16" height="22">
+                            </p>
+                            <p>
+                                <span class="address_box">Енисейская улица, д.3 корп. 4 <br>
+                                                            Ежедневно с 10:00 до 21:00</span> <br>
+                                <a class="location-map" href="#">Схема проезда</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--END FOOTER -->
+    <script src="js/open_menu.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

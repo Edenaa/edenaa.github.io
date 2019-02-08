@@ -1,0 +1,43 @@
+.owl-item {
+    height: 100%;
+}
+.owl-nav {
+    position: absolute;
+    margin: 0;
+    left: 200px;
+    bottom: 50px;
+    font-size: 40px;
+    color: #4c50e3;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
+    color: inherit;
+}
+
+.disabled {
+    color: #9ca2b4;
+}
+
+.owl-prev {
+    margin-right: 30px;
+}
+.owl-dots {
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 105px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    background: #999999;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    margin-bottom: 2px;
+    width: 14px;
+    height: 14px;
+    background-color: #7650db;
+}
