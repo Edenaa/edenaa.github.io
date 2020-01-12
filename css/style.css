@@ -123,12 +123,8 @@ li {
 }
 
 .header-bottom {
-    padding: 100px 0;
+    padding: 20px 0;
     background-color: rgba(132, 216, 255, 0.8);
-    background-image: url(../img/bg-1.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 50% 100%;
 }
 
 .header__title {
